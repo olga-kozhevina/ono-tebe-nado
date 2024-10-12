@@ -225,7 +225,51 @@
   padding-left: 40px;
 }
 
+/* Lots Section */
+
 .about {
+  display: grid;
+  grid-template-columns: 334px 1fr;
+  min-height: 595px;
+  margin: 0 24px;
+}
+
+.about__column {
+  padding: 2px 0 0 47px;
+}
+
+.about__logo {
+  background-color: #000;
+  border-radius: 50%;
+  display: block;
+  width: 240px;
+  height: 240px;
+}
+
+.about__logo-image {
+  padding: 63px 45px;
+}
+
+.about__auction {
+  color: #000;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  text-align: left;
+  padding: 0 0 33px 24px;
+}
+
+.about__title {
+  text-transform: uppercase;
+  font-size: 40px;
+  font-weight: 700;
+  padding-bottom: 76px;
+}
+
+.about__text {
+  font-size: 20px;
+  line-height: 24px;
+  padding-top: 24px;
 }
 
 .footer {
