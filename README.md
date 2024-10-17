@@ -14,8 +14,8 @@
 - страница валидна;
 - все блоки сверстаны и отображают все требования согласно ТЗ (брифу);
 - все изображения совпровождаются атрибутом alt;
-- создана сетка с помощью flex или grid;
-- присутствуют файлы index.htmд, README.md, директории styles, images и fonts;
+- сетки созданы с помощью flex и grid;
+- присутствуют файлы index.html, README.md, директории styles, images и fonts;
 
 ## [Ссылка на макет &rarr;](https://www.figma.com/file/8KwhMpv8qnDocX4NVFQBpn/Оно-тебе-надо?type=design&node-id=0%3A1&mode=design&t=SFxhzV6vT3fWUSjK-1)
 ## [Ссылка на сайт проектной работы &rarr;](https://olga-kozhevina.github.io/ono-tebe-nado/)
