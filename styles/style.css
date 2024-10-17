@@ -66,7 +66,6 @@
   background: url(../images/cover.jpg) no-repeat center / cover;
   box-sizing: border-box;
   position: relative;
-  min-height: 757px;
 }
 
 .overlay {
@@ -95,7 +94,8 @@
 }
 
 .aligned-text_center {
-  padding: 0 287px 20px;
+  text-align: center;
+  padding: 0 287px 20px 230px;
 }
 
 .aligned-text_right {
@@ -114,7 +114,7 @@
   display: flex;
   justify-content: space-around;
   align-items: center;
-  padding: 108px 12px 0 38px;
+  padding: 108px 12px 51px 38px;
   position: relative;
   z-index: 1;
 }
@@ -251,22 +251,26 @@
   color: #000;
   display: flex;
   flex-direction: column;
-  justify-content: end;
+  justify-content: center;
   text-align: left;
-  padding: 0 0 33px 24px;
+  padding-left: 24px;
 }
 
 .about__title {
   text-transform: uppercase;
   font-size: 40px;
   font-weight: 700;
-  padding-bottom: 76px;
+  padding: 70px 0 100px;
 }
 
 .about__text {
   font-size: 20px;
   line-height: 24px;
-  padding-top: 24px;
+  padding-bottom: 24px;
+}
+
+.about__text:last-child {
+  padding-bottom: 0;
 }
 
 /* Footer */
