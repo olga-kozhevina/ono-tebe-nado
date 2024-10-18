@@ -254,13 +254,17 @@
   justify-content: center;
   text-align: left;
   padding-left: 24px;
+  position: relative;
 }
 
+/* использовано абсолютное позиционирование для фиксации заголовка у экранов шириной более 1100px */
 .about__title {
   text-transform: uppercase;
   font-size: 40px;
   font-weight: 700;
-  padding: 70px 0 100px;
+  padding-top: 70px;
+  position: absolute;
+  top: 33px;
 }
 
 .about__text {
@@ -269,7 +273,11 @@
   padding-bottom: 24px;
 }
 
-.about__text:last-child {
+.about__text:first-of-type {
+  padding-top: 217px;
+}
+
+.about__text:last-of-type {
   padding-bottom: 0;
 }
 
